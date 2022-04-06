@@ -31,4 +31,8 @@ override.tf.json
 # lock file
 .terraform.lock.hcl
 
+# MAC file
 .DS_Store
+
+# Ansible
+*.retry

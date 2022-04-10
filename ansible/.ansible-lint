@@ -1,2 +1,7 @@
-warn_list:
-  - fqcn-builtins
+---
+warn_list: # or 'skip_list' to silence them completely
+  - experimental # all rules tagged as experimental
+  - risky-file-permissions
+
+skip_list: # or 'skip_list' to silence them completely
+  - fqcn-builtins # Use FQCN for builtin actions.
